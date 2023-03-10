@@ -19,12 +19,12 @@ int main()
     int summa = 0;
     for(int i = 0; i < n; i++)
     {
-        if(a[i] % 2 == 1)
+        if(i % 2 == 1)
         {
             summa += a[i];
         }
     }
     
-    // виведення
+    // виведення суми 
     cout << summa << endl;
 }

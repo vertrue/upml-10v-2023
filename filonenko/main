@@ -1,0 +1,2 @@
+from f import result
+print( result )

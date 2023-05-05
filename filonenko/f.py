@@ -1,5 +1,6 @@
-def vv( b )
-if b > 10:
-     return True
-else:
-     False
+def vv( b ):
+    if b < 10:
+        return b
+    else:
+        return False
+     

@@ -1,10 +1,5 @@
-a = []
-n = int( input() )
-for i in range( 0, n ):
-    b = int( input() )
-    if b < 10:
-        a.append(b)
-    else:
-        continue
-result = sum( a )
-return result
+def vv( b )
+if b > 10:
+     return True
+else:
+     False
